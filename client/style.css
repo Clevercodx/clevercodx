@@ -117,6 +117,7 @@ form {
   max-width: 1280px;
   margin: 0 auto;
   padding: 30px;
+  padding-bottom: 100px;
   background: #40414F;
 
   display: flex;
