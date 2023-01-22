@@ -21,5 +21,29 @@
     </div>
 
     <script type="module" src="script.js"></script>
+    <script src="client\darkmode.js"></script>
   </body>
+  <footer>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        background-color: #222;
+        color: #f2f2f2;
+      }
+      .darkmode-toggle {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+      }
+      .darkmode-toggle img {
+        width: 32px;
+        height: 32px;
+      }
+    </style>
+    
+    <div class="darkmode-toggle">
+      <img src="https://cdn.jsdelivr.net/gh/google/material-design-icons/toggle/svg/production/ic_invert_colors_24px.svg" alt="Dark Mode Toggle" />
+    </div>
+    <p class="special-paragraph">@ 2023 Clevercodex. All rights reserved.</p>
+  </footer>
 </html>
