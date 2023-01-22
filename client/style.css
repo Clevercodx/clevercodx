@@ -13,7 +13,7 @@ body {
 
 #app {
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   background: #343541;
 
   display: flex;
@@ -89,7 +89,12 @@ body {
 .special-paragraph {
   text-align: center;
   color: #FFFFFF;
-  font-size: 15px;
+  font-size: 20px;
+;
+}
+
+footer {
+  padding: 20px;
 }
 
 .message {
@@ -123,7 +128,7 @@ form {
   max-width: 1280px;
   margin: 0 auto;
   padding: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   background: #40414F;
 
   display: flex;
@@ -137,7 +142,7 @@ textarea {
   color: #fff;
   font-size: 18px;
 
-  padding: 70px;
+  padding: 35px;
   background: transparent;
   border-radius: 5px;
   border: none;
