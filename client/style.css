@@ -13,7 +13,7 @@ body {
 
 #app {
   width: 100vw;
-  height: 84vh;
+  height: 89vh;
   background: #343541;
 
   display: flex;
@@ -94,7 +94,7 @@ body {
 }
 
 footer {
-  padding: 20px;
+  padding: 5px;
 }
 
 .message {
